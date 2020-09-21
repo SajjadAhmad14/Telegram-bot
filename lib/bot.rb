@@ -1,5 +1,4 @@
 require 'telegram/bot'
-require_relative 'saying'
 require 'dotenv'
 Dotenv.load
 
