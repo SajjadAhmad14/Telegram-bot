@@ -9,8 +9,7 @@ class Atricles
                     "https://dev.to/kodziak/set-up-special-github-readme-3ifg"
                   ]
   end
-
   def random_article
-    @article_links[rand(@article_links.size)]
+    @article_links[rand(@article_links.length)]
   end
 end

@@ -1,5 +1,4 @@
 require_relative '../lib/articles'
-# require_relative '../lib/bot'
 
 describe Atricles do
   let (:article) { Atricles.new }
