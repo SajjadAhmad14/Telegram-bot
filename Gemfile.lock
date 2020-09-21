@@ -9,6 +9,7 @@ GEM
       descendants_tracker (~> 0.0.1)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
+    dotenv (2.7.6)
     equalizer (0.0.11)
     faraday (1.0.1)
       multipart-post (>= 1.2, < 3)
@@ -30,6 +31,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  dotenv
   telegram-bot-ruby
 
 BUNDLED WITH
