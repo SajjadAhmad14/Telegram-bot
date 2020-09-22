@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
 require_relative './reuse'
-
+# rubocop:disable Layout/LineLength
+# A class which has an instance variable of strings an instance method
 class Jokes
   include Methods
   def initialize
@@ -16,6 +17,7 @@ class Jokes
                           'A programmer is told to go to hell, he finds the worst part of that statement is the go to']
   end
 
+  # rubocop:enable Layout/LineLength
   def random_joke
     Methods.rand_string(@programming_jokes)
   end
