@@ -1,4 +1,7 @@
+require_relative './module'
+
 class Atricles
+  include Methods
   def initialize
     @article_links = ["https://www.freecodecamp.org/news/learning-ruby-from-zero-to-hero-90ad4eecc82d/",
                       "https://www.freecodecamp.org/news/idiomatic-ruby-writing-beautiful-code-6845c830c664/",
@@ -10,6 +13,6 @@ class Atricles
                   ]
   end
   def random_article
-    @article_links[rand(@article_links.length)]
+    Methods.rand_string(@article_links)
   end
 end
