@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Microverse Capstone Project
+Microverse Ruby Capstone Project
 
 ## Telegram Bot(Programmer_buddy)
 
