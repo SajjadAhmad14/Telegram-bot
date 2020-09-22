@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative './reuse'
-
+# A class with an instance variable and a method which return a random link
 class Atricles
   include Methods
   def initialize
