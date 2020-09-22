@@ -7,4 +7,11 @@ describe Sayings do
       expect(saying).to be_a Sayings
     end
   end
+
+  describe '#random_saying' do
+    it "return a random string" do
+      str = ["hi", "hello", "good"]
+      expect(saying.random_saying).to be_a String
+    end
+  end
 end
