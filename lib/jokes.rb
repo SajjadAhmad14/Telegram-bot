@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require_relative './reuse'
 # rubocop:disable Layout/LineLength
 # A class which has an instance variable of strings an instance method
