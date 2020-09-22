@@ -2,11 +2,11 @@
 
 Microverse Ruby Capstone Project
 
-## Telegram Bot(Programmer_buddy)
+## Telegram Bot(Programming_is_fun)
 
 - This is Telegram Bot implemented using Ruby And [Telegram bot API](https://core.telegram.org/bots/api)
 - You need to have a Telegram app installed on your machine to run this Bot. Install it using this [Link](https://desktop.telegram.org/)
-- Once you have application, now you can search for 'programmer_buddy', which is my Bot name.
+- Once you have application, now you can search for 'programming_is_fun', which is my Bot name.
 - This bot accepts a few commands and return you an article about programming, a saying or joke about programming.
 
 # Rspec Tests
