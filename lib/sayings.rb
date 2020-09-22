@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
 require_relative './reuse'
-
+# This class has an instance variable to store strings and a method to return a string
+# rubocop:disable Layout/LineLength
 class Sayings
   include Methods
   def initialize
@@ -20,3 +21,4 @@ class Sayings
     Methods.rand_string(@programming_sayings)
   end
 end
+# rubocop:enable Layout/LineLength
