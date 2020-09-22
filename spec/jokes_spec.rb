@@ -12,7 +12,6 @@ describe Jokes do
 
   describe '#random_joke' do
     it 'return a string when called on array of strings' do
-      arr_str = %w[i am sajjad]
       expect(joke.random_joke).to be_a String
     end
   end
