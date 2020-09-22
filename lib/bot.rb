@@ -3,6 +3,7 @@
 require 'telegram/bot'
 require_relative './articles'
 require_relative './sayings'
+require_relative './jokes'
 require 'dotenv'
 Dotenv.load
 
@@ -20,7 +21,10 @@ class MyBot
       when '/saying'
         saying = Sayings.new
         bot.api.send_message(chat_id: message.chat.id, text: saying.random_saying)
-      else bot.api.send_message(chat_id: message.chat.id, text: "Invalid command, #{message.from.first_name}, Please enter /start, /stop or /article")
+      when '/joke'
+        joke = Jokes.new
+        bot.api.send_message(chat_id: message.chat.id, text: joke.random_joke)
+      else bot.api.send_message(chat_id: message.chat.id, text: "Invalid command, #{message.from.first_name}, Please enter /start, /stop, /article, /saying or /joke")
       end
     end
   end
