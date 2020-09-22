@@ -13,8 +13,8 @@ Microverse Capstone Project
 
 ![screenshot](./images/tests.png)
 
-- Rspec tests are in three files jokes_spec.rb, sayings_spec.rb, sayings_spec.rb, articles_spec.rb and reuse_spec.rb in spec directory
-- Tests can be found for below mentioned instance methods
+- Rspec tests are in these files: jokes_spec.rb, sayings_spec.rb, articles_spec.rb and reuse_spec.rb in spec directory.
+- Tests can be found for below mentioned instance methods.
 
 - '#initialize' for Jokes
 - '#initialize' for Sayings
