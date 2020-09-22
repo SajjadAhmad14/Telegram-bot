@@ -1,4 +1,4 @@
-require './reuse'
+require_relative './reuse'
 
 class Jokes
   include Methods
