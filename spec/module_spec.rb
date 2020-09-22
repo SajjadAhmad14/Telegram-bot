@@ -1,4 +1,4 @@
-require_relative '../lib/module'
+require_relative '../lib/reuse'
 
 describe Methods do
   describe "#rand_string" do
