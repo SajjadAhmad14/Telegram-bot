@@ -41,7 +41,7 @@ This Bot has five commands
 
 # How To Use Prgrammer_buddy
 
-- You can clone this [Repo](https://github.com/SajjadAhmad14/Telegram-bot) to have code for this app in your machine
+- You can clone this [Repo](https://github.com/SajjadAhmad14/Telegram-bot.git) to have code for this app in your machine
 - You must have a Telegram app to run this Bot
 - Use above mentioned commands to play with Bot
 - Once you have a local copy of repo, you can run 'ruby bin/main.rb' command from terminal to run the bot
