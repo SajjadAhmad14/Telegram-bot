@@ -1,12 +1,12 @@
 require_relative './reuse'
-# rubocop:disable Layout/LineLength
 # A class which has an instance variable of strings an instance method
 class Jokes
   include Methods
   attr_reader :programming_jokes
   def initialize
     @programming_jokes = ['A database administrator left his wife because she had one-to-many relationships',
-                          'When a cat or a programmer is happy and excited, an appropriate question would be, did you find a bug?',
+                          'When a cat or a programmer is happy and excited,
+                          an appropriate question would be, did you find a bug?',
                           'Assembly programmers always soaking wet because They work below C-level',
                           "programmer quit his job because he didn't get arrays",
                           'The object-oriented way to become wealthy is Inheritance',
@@ -16,7 +16,6 @@ class Jokes
                           'A programmer is told to go to hell, he finds the worst part of that statement is the go to']
   end
 
-  # rubocop:enable Layout/LineLength
   def random_joke
     Methods.rand_string(@programming_jokes)
   end

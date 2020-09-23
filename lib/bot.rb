@@ -3,7 +3,7 @@ require_relative './articles'
 require_relative './sayings'
 require_relative './jokes'
 require 'dotenv'
-Dotenv.load  
+Dotenv.load
 # A class which has switch statements to check which command is entered
 class MyBot
   Telegram::Bot::Client.run(ENV['TELEGRAM_KEY'], logger: Logger.new($stderr)) do |bot|
