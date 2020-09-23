@@ -2,6 +2,7 @@ require_relative './reuse'
 # A class with an instance variable and a method which return a random link
 class Atricles
   include Methods
+  attr_reader :article_links
   def initialize
     @article_links = ['https://www.freecodecamp.org/news/learning-ruby-from-zero-to-hero-90ad4eecc82d/',
                       'https://www.freecodecamp.org/news/idiomatic-ruby-writing-beautiful-code-6845c830c664/',

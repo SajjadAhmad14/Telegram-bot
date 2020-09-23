@@ -3,6 +3,7 @@ require_relative './reuse'
 # A class which has an instance variable of strings an instance method
 class Jokes
   include Methods
+  attr_reader :programming_jokes
   def initialize
     @programming_jokes = ['A database administrator left his wife because she had one-to-many relationships',
                           'When a cat or a programmer is happy and excited, an appropriate question would be, did you find a bug?',

@@ -3,6 +3,7 @@ require_relative './reuse'
 # rubocop:disable Layout/LineLength
 class Sayings
   include Methods
+  attr_reader :programming_sayings
   def initialize
     @programming_sayings = ['The best thing about a boolean is even if you are wrong, you are only off by a bit. (Anonymous)',
                             'Before software can be reusable it first has to be usable. (Ralph Johnson)',
