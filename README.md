@@ -26,6 +26,7 @@ Microverse Ruby Capstone Project
 
 # How to Run Tests
 
+- You need to have Rspec Gem installed on your system or If you use use Code editor, you don't need Gem to be included
 - Tests can be run using rspec or rspec --format documentation command
 - Screenshot of passing spec is attached above
 
@@ -45,6 +46,8 @@ This Bot has five commands
 - You must have a Telegram app to run this Bot
 - Use above mentioned commands to play with Bot
 - Once you have a local copy of repo, you can run 'ruby bin/main.rb' command from terminal to run the bot
+
+## This Bot is Live Now. You can click [Here](https://t.me/FunProgrammingBot) to Play with Bot
 
 ## Built With
 
