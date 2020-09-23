@@ -24,6 +24,8 @@ Microverse Ruby Capstone Project
 - '#random_article'
 - '#rand_string'
 
+# How to Run Tests
+
 - Tests can be run using rspec or rspec --format documentation command
 - Screenshot of passing spec is attached above
 
@@ -42,7 +44,7 @@ This Bot has five commands
 - You can clone this [Repo](https://github.com/SajjadAhmad14/Telegram-bot) to have code for this app in your machine
 - You must have a Telegram app to run this Bot
 - Use above mentioned commands to play with Bot
-- Once you have a local copy of repo, you can run ruby 'bin/main.rb' command from terminal to run the bot
+- Once you have a local copy of repo, you can run 'ruby bin/main.rb' command from terminal to run the bot
 
 ## Built With
 
@@ -62,7 +64,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 
-In order to run, you need to install RUBY in your computer. For windows you can go to [Ruby installer](https://rubyinstaller.org/) and for MAC and LINUX you can go to [Ruby official site](https://www.ruby-lang.org/en/downloads/) for intructions on how to intall it.
+In order to run the Bot, you need to install RUBY in your computer. For windows you can go to [Ruby installer](https://rubyinstaller.org/) and for MAC and LINUX you can go to [Ruby official site](https://www.ruby-lang.org/en/downloads/) for intructions on how to intall it.
+You need to install Telegram app as well. 
 Then you can clone the project by typing ```git clone https://github.com/SajjadAhmad14/Telegram-bot/develop```
 
 ## Authors
