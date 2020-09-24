@@ -5,8 +5,7 @@ Microverse Ruby Capstone Project
 ## Telegram Bot(Programming_is_fun)
 
 - This is Telegram Bot implemented using Ruby And [Telegram bot API](https://core.telegram.org/bots/api)
-- You need to have a Telegram app installed on your machine to run this Bot. Install it using this [Link](https://desktop.telegram.org/)
-- Once you have application, now you can search for 'programming_is_fun', which is my Bot name.
+- You can search for 'programming_is_fun', which is my Bot name.
 - This bot accepts a few commands and return you an article about programming, a saying or joke about programming.
 
 # Rspec Tests
@@ -30,8 +29,7 @@ Microverse Ruby Capstone Project
 - Tests can be run using rspec or rspec --format documentation command
 - Screenshot of passing spec is attached above
 
-![screenshot](./images/application.png)
-
+# Commands to Run the Bot
 This Bot has five commands
 
 - [x] /start - It gives the information that how to use othe commands to get the desired info.
@@ -40,12 +38,30 @@ This Bot has five commands
 - [x] /joke - It displays a random joke related to programming.
 - [x] /saying - It displays a random saying related to programming.
 
-# How To Use Prgrammer_buddy
+![screenshot](./images/application.png)
 
-- You can clone this [Repo](https://github.com/SajjadAhmad14/Telegram-bot) to have code for this app in your machine
-- You must have a Telegram app to run this Bot
-- Use above mentioned commands to play with Bot
-- Once you have a local copy of repo, you can run 'ruby bin/main.rb' command from terminal to run the bot
+# Install and Run the Bot Locally
+
+
+In order to run the Bot, you need to install RUBY in your computer. For windows you can go to [Ruby installer](https://rubyinstaller.org/) and for MAC and LINUX you can go to [Ruby official site](https://www.ruby-lang.org/en/downloads/) for intructions on how to intall it.
+
+## When you have Ruby Installed in your System, please follow bellow mentioned steps to run the Bot
+
+**Step 1**<br>
+Clone the repo in your local folder where you want to run it<br>
+`git clone https://github.com/SajjadAhmad14/Telegram-bot.git`.<br>
+**Step 2**<br>
+Run `bundle install` to install the gems from the `Gemfile`.<br>
+**Step 3**<br>
+Download the [Telegram app](https://desktop.telegram.org/), create an account and talk to the [Botfather](https://t.me/botfather). Follow the instructions and create a bot, you will then receive an API Token that looks like this: `1347431199:AAH4hPt6PDiJB4swk23Lb4oOzwocjKpba0S6` and the link to your bot.<br>
+**Step 4**<br>
+Run `touch .env` on your terminal to create the `.env` file. Then add your tokens in the required fields `TELEGRAM_KEY=` inside the file.<br>
+**Step 5**<br>
+Run `ruby bin/main.rb` to start the bot.<br>
+**Step 6**<br>
+Open the link to the bot that you received from the Botfather.<br>
+**Step 7**<br>
+You can use the commands defined in the [Available commands section](#available-commands-for-programming_is_fun) defined above.<br>
 
 ## This Bot is Live Now. You can click [Here](https://t.me/FunProgrammingBot) to Play with Bot
 
@@ -57,19 +73,6 @@ This Bot has five commands
 - Rubocop
 - Rspec
 - VsCode
-
-## Getting Started
-
-To get a local copy up and running follow these simple example steps.
-- Go to this [Link](https://github.com/SajjadAhmad14/Telegram-bot) and clone or fork the repository
-- Open it in your favourite code editor
-- Run the code and do let me know if you have any idea to improve the code or a add a feature
-
-### Install
-
-In order to run the Bot, you need to install RUBY in your computer. For windows you can go to [Ruby installer](https://rubyinstaller.org/) and for MAC and LINUX you can go to [Ruby official site](https://www.ruby-lang.org/en/downloads/) for intructions on how to intall it.
-You need to install Telegram app as well. 
-Then you can clone the project by typing ```git clone https://github.com/SajjadAhmad14/Telegram-bot/develop```
 
 ## Authors
 
