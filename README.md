@@ -61,7 +61,7 @@ Run `ruby bin/main.rb` to start the bot.<br>
 **Step 6**<br>
 Open the link to the bot that you received from the Botfather.<br>
 **Step 7**<br>
-You can use the commands defined in the [Available commands section](#Commands to Run the Bot) defined above.<br>
+You can use the commands defined in the [Available commands section](#Commands-to-Run-the-Bot) defined above.<br>
 
 ## This Bot is Live Now. You can click [Here](https://t.me/FunProgrammingBot) to Play with Bot
 
